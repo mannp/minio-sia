@@ -19,7 +19,7 @@ RUN go-wrapper download -u github.com/boltdb/bolt
 
 WORKDIR /go/src/github.com/minio/minio
 
-ENV REFRESHED_AT 17.8.17
+ENV REFRESHED_AT 29.8.17
 
 RUN cd /go/src/github.com/minio/minio && \
 	git remote add dvstate https://github.com/dvstate/minio.git && \
